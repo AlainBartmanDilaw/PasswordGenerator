@@ -8,6 +8,6 @@ const passwords = generator.generateMultiple(process.argv[2], {
 	excludeSimilarCharacters: true
 });
 
-passwords.forEach(password => {
-console.log(password);
+passwords.forEach(password=>{
+    console.log(password);
 });
